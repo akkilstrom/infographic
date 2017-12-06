@@ -1,0 +1,40 @@
+body,html {
+	margin: 0;
+	padding: 0;
+	background-color:#EDA655;
+}
+
+* {
+	margin: 0 auto;
+}
+
+main {
+	width: 100%;
+	min-height:100vh;
+}
+
+.img-container {
+	width:80%;
+	padding-top: 4%;
+}
+
+/*------------------------------------------------------------------------------
+							MEDIA-QUERIES
+------------------------------------------------------------------------------*/
+
+@media all and (max-width:959px) {
+	.img-container {
+        width:90%;
+		padding-top: 8%;
+    }
+}
+
+@media all and (max-width:767px) {
+
+    .img-container {
+        width:100%;
+		padding-top: 10%;
+    }
+}
+
+
